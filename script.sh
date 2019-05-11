@@ -3,9 +3,6 @@
 # copy the files to the document root
 # start the server
 clear
-echo "enter the server IP address:"
-read ip
-echo "the entered IP is : $ip"
 apt update
 apt-get install apache2 -y
 apache2 -v
